@@ -1,5 +1,5 @@
 #pragma once
-#include <SFML\Graphics.hpp>
+#include <SFML/Graphics.hpp>
 #include "Settings.h"
 #include "Player.h"
 #include "Shooting.h"

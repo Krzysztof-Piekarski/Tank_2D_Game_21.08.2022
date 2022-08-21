@@ -19,9 +19,10 @@ void Game::round()
 	while (1)
 	{
 		window.pollEvent(event);
-		if (event.type == window.pollEvent(event))
+		if (event.type == sf::Event::Closed)
 		{
 			window.close();
+			break;
 		}
 
 		player.update();

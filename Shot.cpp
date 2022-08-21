@@ -1,6 +1,6 @@
 #include "Shot.h"
-#include <SFML\System.hpp>
-#include <SFML\Window.hpp>
+#include <SFML/System.hpp>
+#include <SFML/Window.hpp>
 #include <cmath>
 
 Shot::Shot(Player& tempPlayer, sf::RenderWindow& tempWindow) : player(tempPlayer), window(tempWindow)

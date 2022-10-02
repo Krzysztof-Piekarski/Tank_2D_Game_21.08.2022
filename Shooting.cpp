@@ -26,6 +26,7 @@ void Shooting::shooting()
 			shots[i]->shape.getPosition().y < 0 + window.getView().getCenter().y - window.getSize().y / 2 ||
 			shots[i]->shape.getPosition().y > window.getView().getCenter().y + window.getSize().y / 2)
 		{
+			delete shots[i];
 			shots.erase(shots.begin() + i);
 		}
 	}
